@@ -1,4 +1,5 @@
-# Java Backend | DSA | SQL Practice Repository
+# Java Backend | DSA | SQL Practice Repository  
+[GitHub](https://github.com/siddharth0161820) •  [LeetCode](https://leetcode.com/siddharth0161820)
 
 This repository is a structured collection of curated problems and implementations designed for backend developers with 0–3 years of experience. It includes important Java coding exercises, data structures and algorithms (DSA) problems, and practical SQL queries commonly asked in technical interviews.
 
@@ -10,22 +11,22 @@ This repository is a structured collection of curated problems and implementatio
 
 Includes hands-on coding questions that cover:
 
-- Core Java and Collections
-- Java 8 features (Streams, Lambda)
-- Custom implementation of data structures (LinkedList, Stack, Queue, HashMap)
-- LRU Cache
-- Sorting and frequency counting
-- Common logic-building interview problems
+- Core Java and Collections  
+- Java 8 features (Streams, Lambda)  
+- Custom implementation of data structures (LinkedList, Stack, Queue, HashMap)  
+- LRU Cache  
+- Sorting and frequency counting  
+- Common logic-building interview problems  
 
-Sample questions:
+**Sample questions:**
 
-- Find the second highest number in an array (with and without Stream API)
-- Find a triplet in an array where the sum of two numbers equals the third
-- Longest unique substring without repeating characters
-- Reverse a LinkedList manually
-- Count frequency of characters in a string
-- Sort a list of employees by salary and name
-- Use Java Stream API to group and filter data
+- Find the second highest number in an array (with and without Stream API)  
+- Find a triplet in an array where the sum of two numbers equals the third  
+- Longest unique substring without repeating characters  
+- Reverse a LinkedList manually  
+- Count frequency of characters in a string  
+- Sort a list of employees by salary and name  
+- Use Java Stream API to group and filter data  
 
 ---
 
@@ -100,15 +101,15 @@ Includes a mix of LeetCode SQL questions and real-world interview-style queries.
 - [Number of Employees Reporting to Each Manager](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/)
 
 #### Real-World SQL Queries
-- Get employees with salary between 40,000 and 50,000 and age above 35
-- Use `HAVING` clause for filtered aggregations
-- Count number of employees in each department
-- JOIN query between employee and address to get employee count per city
-- Subquery to find employees with salary less than or equal to another
-- Sum of marks for a given student
-- Find unique student names
-- Employees hired after 2020
-- Count of employees grouped by gender
+- Get employees with salary between 40,000 and 50,000 and age above 35  
+- Use `HAVING` clause for filtered aggregations  
+- Count number of employees in each department  
+- JOIN query between employee and address to get employee count per city  
+- Subquery to find employees with salary less than or equal to another  
+- Sum of marks for a given student  
+- Find unique student names  
+- Employees hired after 2020  
+- Count of employees grouped by gender  
 
 ---
 
