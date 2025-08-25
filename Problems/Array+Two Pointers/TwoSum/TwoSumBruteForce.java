@@ -24,3 +24,4 @@ public class TwoSumBruteForce {
         System.out.println("Brute Force Output: "+ Arrays.toString(result));
     }
 }
+
