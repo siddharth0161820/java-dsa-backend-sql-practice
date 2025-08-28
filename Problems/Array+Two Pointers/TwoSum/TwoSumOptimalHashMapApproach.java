@@ -17,7 +17,7 @@ public class TwoSumOptimalHashMapApproach {
            }
                map.put(nums[i],i);
         }
-        return null;
+        return new int[]{};
     }
 
     public static void main(String[] args) {
