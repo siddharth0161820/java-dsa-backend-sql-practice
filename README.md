@@ -18,7 +18,7 @@ Curated, filtered, and structured for real-world Java backend interviews, includ
 
 | Question | Answer |
 |----------|--------|
-| Time & Space Complexity? | O(n) time, O(n) space |
+| Time & Space Complexity? | O(n), O(n) |
 | Why HashMap and not HashSet? | HashMap tracks indices |
 | Sorted input – can we improve? | Yes → Two Pointers → O(n), O(1) |
 | Duplicates like [3,3] for target 6? | Works – complement matched |
@@ -91,18 +91,19 @@ Curated, filtered, and structured for real-world Java backend interviews, includ
 
 ---
 
-#### ✅ Rotate Array  
-🔗 [LeetCode #189](https://leetcode.com/problems/rotate-array/)  
-💬 Rotate array by `k` steps.
+#### ⭐ EXTRA → 3Sum  
+🔗 [LeetCode #15](https://leetcode.com/problems/3sum/)  
+💬 Find all unique triplets that sum to zero.
 
 🚀 Follow-Up Q&A
 
 | Question | Answer |
 |----------|--------|
-| Time & Space Complexity? | O(n), O(1) |
-| Reverse-based logic? | Yes – 3 reverses |
-| What if k > n? | Use `k = k % n` |
-| In-place using cycles? | Yes – advanced pointer method |
+| Time & Space Complexity? | O(n²), O(1) |
+| Why sort first? | Avoid duplicates and allow 2-pointer |
+| How handle duplicates? | Skip equal nums while iterating |
+| Return count only? | Increment counter instead |
+| Generalize to 4Sum? | Use nested loops + 2-pointer |
 
 ---
 
@@ -120,6 +121,38 @@ Curated, filtered, and structured for real-world Java backend interviews, includ
 | Why use Set? | To track current window |
 | Optimized version? | Use Map for index jumps |
 | Want actual substring? | Track start & maxLen |
+
+---
+
+#### ⭐ EXTRA → Subarray Sum Equals K  
+🔗 [LeetCode #560](https://leetcode.com/problems/subarray-sum-equals-k/)  
+💬 Count subarrays summing to k (prefix sum + hashmap).
+
+🚀 Follow-Up Q&A
+
+| Question | Answer |
+|----------|--------|
+| Time & Space Complexity? | O(n), O(n) |
+| Why prefix sum? | Captures subarray sums efficiently |
+| What if negatives not allowed? | Use sliding window |
+| Return subarrays themselves? | Store start indices |
+| Extension to 2D matrix? | Use row-wise prefix sum |
+
+---
+
+#### ⭐ EXTRA → Minimum Window Substring  
+🔗 [LeetCode #76](https://leetcode.com/problems/minimum-window-substring/)  
+💬 Smallest substring containing all characters of t.
+
+🚀 Follow-Up Q&A
+
+| Question | Answer |
+|----------|--------|
+| Time & Space Complexity? | O(n), O(1) |
+| Why two counters? | Track need vs have |
+| What if string t longer than s? | Return "" immediately |
+| Can we solve with brute force? | Yes, O(n²·m) |
+| Real use case? | Search highlighting, DNA matching |
 
 ---
 
@@ -218,6 +251,42 @@ Curated, filtered, and structured for real-world Java backend interviews, includ
 
 ---
 
+### 📁 Tree
+
+#### ⭐ EXTRA → Binary Tree Zigzag Level Order Traversal  
+🔗 [LeetCode #103](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)  
+💬 BFS with alternating direction.
+
+🚀 Follow-Up Q&A
+
+| Question | Answer |
+|----------|--------|
+| Time & Space Complexity? | O(n), O(n) |
+| Why queue? | BFS traversal |
+| Why zigzag? | Alternate left-right |
+| Return normal level order? | Remove reverse step |
+| Extension? | Print spiral form |
+
+---
+
+### 📁 Graph
+
+#### ⭐ EXTRA → Dijkstra’s Shortest Path  
+🔗 [LeetCode #743 – Network Delay Time](https://leetcode.com/problems/network-delay-time/)  
+💬 Classic Dijkstra shortest path.
+
+🚀 Follow-Up Q&A
+
+| Question | Answer |
+|----------|--------|
+| Time & Space Complexity? | O((V+E) log V), O(V+E) |
+| Why priority queue? | Extract min distance efficiently |
+| Graph with negative weights? | Use Bellman-Ford |
+| Return all shortest paths? | Store parent pointers |
+| Real-world use? | Network latency, routing |
+
+---
+
 ### 📁 LRU Cache
 
 #### ✅ LRU Cache  
@@ -289,5 +358,3 @@ Curated, filtered, and structured for real-world Java backend interviews, includ
 ---
 
 🙏 Thanks
-
-
